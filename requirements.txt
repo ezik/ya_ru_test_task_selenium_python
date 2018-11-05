@@ -1,3 +1,13 @@
-pytest
-selenium
-allure-pytest
+allure-pytest==2.5.3
+allure-python-commons==2.5.3
+atomicwrites==1.2.1
+attrs==18.2.0
+more-itertools==4.3.0
+pluggy==0.8.0
+py==1.7.0
+pytest==3.9.3
+selenium==3.141.0
+six==1.11.0
+style==1.1.0
+update==0.0.1
+urllib3==1.24
