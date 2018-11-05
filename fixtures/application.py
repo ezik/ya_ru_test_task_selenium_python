@@ -8,7 +8,7 @@ from fixtures.search import SearchHelper
 
 # This profile path is added to use firefox instance with suppressed mic prompt.
 # In public version, username is removed due to security reasons
-ff_profile = FirefoxProfile("/Users/kolyshkina_olena/Library/Application Support/Firefox/Profiles/zdzu0yrg.default")
+ff_profile = FirefoxProfile("/Users/<username>/Library/Application Support/Firefox/Profiles/zdzu0yrg.default")
 chrome_profile = Options()
 chrome_profile.add_argument("use-fake-device-for-media-stream")
 chrome_profile.add_argument("use-fake-ui-for-media-stream")
